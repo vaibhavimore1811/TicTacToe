@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lavender"
+    android:background="#C5A5F3"
     tools:context=".MainActivity">
 
 
@@ -43,7 +43,8 @@
                 android:src="@drawable/ximage"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                app:tint="@color/lavender" />
 
         </LinearLayout>
 
@@ -54,6 +55,7 @@
             android:id="@+id/playerTwoLayout"
             android:orientation="vertical"
             android:gravity="center"
+
             android:background="@drawable/white_box">
 
             <TextView
@@ -74,6 +76,7 @@
                 android:src="@drawable/oimage"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
+                app:tint="@color/lavender"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
